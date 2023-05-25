@@ -38,7 +38,7 @@ class StudentsController extends BaseController
             'student_id' => $this->request->getPost('studentNum'),
             'student_section' => $this->request->getPost('studentSection'),
             'student_course' => $this->request->getPost('studentCourse'),
-            'student_batch' => $this->request->getPost('studentBatch'),
+            
             'student_year_level' => $this->request->getPost('studentLevel'),
             'student_profile' => $imageName,
         );
