@@ -63,7 +63,6 @@ $this->section('body');
               <th scope="col">Student Number</th>
               <th scope="col">Student Section</th>
               <th scope="col">Student Course</th>
-              <!-- <th scope="col">Student Batch</th> -->
               <th scope="col">Student Year Level</th>
               <th scope="col">Student Profile</th>
               <th scope="col">Action</th>
@@ -77,7 +76,6 @@ $this->section('body');
                 <td><?= $student['student_id']; ?></td>
                 <td><?= $student['student_section']; ?></td>
                 <td><?= $student['student_course']; ?></td>
-               
                 <td><?= $student['student_year_level']; ?></td>
                 <td class="student-profile"><img src="/uploads/<?= $student['student_profile']; ?>" alt=""></td>
                 <td>
